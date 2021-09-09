@@ -74,7 +74,10 @@ bool SudokuSolver::solveSudoku()
 						if (solveSudoku())
 							return true;
 
-						// assign zero that indicates that no solution has been found
+						/*
+							remove solution if it was wrong (called backtracking)
+							and try next solution
+						*/
 						_board[r][c] = 0;
 					}
 				}
