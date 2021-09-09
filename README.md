@@ -28,7 +28,7 @@ g++ *.cpp -o SudokuSolver.out
 ```
 
 ### Windows
-Tested on: Windows 10 Pro, Visual Studio 2019
-Compiler: Microsoft (R) C/C++-Optimierungscompiler Version 19.27.29112 für x86
+Tested on: Windows 10 Pro, Visual Studio 2019<br>
+Compiler: Microsoft (R) C/C++-Optimierungscompiler Version 19.27.29112 für x86<br><br>
 
 Just import the Files into Visual Studio, build and run.
