@@ -8,7 +8,8 @@ also delivers a two-dimensional integer array as output, which represents the so
 
 Backtracking is an algorithm for solving problems recursively. 
 It tries to build a solution incrementally, one piece at a time, 
-removing those solutions that fail to satisfy the constraints of the problem immediately.<br>
+removing those solutions that fail to satisfy the constraints of the problem immediately.
+Additionally, it writes the result to csv file.<br>
 
 For example the Sudoku solving Problem, we try filling digits one by one. Whenever we find that current digit cannot lead to a solution, we remove it (backtrack) and try next digit. This is more efficient than naive approach by generating all possible combinations of digits and then validating each combination.
 Backtracking drops permutations whenever it backtracks to increase efficiency.<br>
